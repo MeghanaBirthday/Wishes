@@ -1,0 +1,63 @@
+#birthdayCard {
+  background: pink;
+  color: #111111;
+  width: 25%;
+  min-width: 300px;
+  border: 8px solid deeppink;
+  border-left: 10px solid #DD0000;
+  margin-left: 550px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.redText {
+  color: #CC0000;
+}
+
+.signature {
+  text-align: right;
+}
+
+strong {
+  font-size: large;
+  color: #CC0000;
+}
+
+#Font {
+  font-size: 22px;
+  text-align: center;
+  text-justify: inter-word;
+  margin-top: 175px;
+  text-decoration: none;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.blink {
+                animation: blinker 1.5s linear infinite;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+
+#Caption {
+  text-justify: inter-word;
+  font-weight: bold;
+  color: black;
+  text-align: justify;
+  margin-left: 125px;
+  margin-top: -40px;
+}
+
+.image {
+
+  margin-left: 225px;
+  margin-top: -13px;
+
+}
