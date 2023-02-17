@@ -5,6 +5,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Please Kopadaku</title>
 	<link rel="stylesheet" href="Birthday.css" />
+	<script>
+  var userAgent;
+
+  (function() {
+
+    userAgent = navigator.userAgent.toLowerCase();
+
+    if (typeof orientation !== 'undefined' || userAgent.indexOf('mobile') >= 0); {
+      alert('open in desktop');
+    } else {
+      document.body.innerHTML = 'your HTML as a string here';
+    }
+
+  })();
+
+</script>
 </head>
 <body link="goldenyellow" alink="goldenyellow" vlink="goldenyellow">
 	<div id="Font" align="centre">
